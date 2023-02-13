@@ -1,0 +1,50 @@
+body{
+    display:flex;
+    justify-content: center;
+
+    background-color:ghostwhite;
+}
+.container{
+    position: relative;
+}
+.btn
+{
+    width: 45px;
+    height: 25px;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    align-self: end;
+    position:absolute;
+
+}
+
+.prev{
+    bottom: 22px;
+    right:2px;
+    z-index: 2;
+}
+
+.next{
+    bottom: 22px;
+    left:2px;
+    z-index: 2;
+}
+.img_list{
+    list-style: none;
+    padding-left: 0;
+
+}
+img{
+    width: 500px;
+    height: 300px;
+    border: darkgray 2px solid;
+    border-radius: 10px;
+
+}
+.slide{
+   display:none;
+}
+.active{
+    display:block;
+}

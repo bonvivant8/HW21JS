@@ -34,7 +34,9 @@ btn()
 next.addEventListener('click',nextSlide)
 function prevSlide()
 {
-    slideItem[count].classList.remove('active')
+    const active=document.querySelector('.active')
+    active.classList.remove('active')
+
     if(count>0){
         count--;
     }
